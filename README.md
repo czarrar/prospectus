@@ -1,4 +1,4 @@
 prospectus
 ==========
 
-My thesis proposal on memory consolidation and interference when attention is directed internally versus externally
+My thesis proposal on memory consolidation during periods of retroactive interference
