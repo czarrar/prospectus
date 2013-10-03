@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Jekyll Bootstrap</title>
- <link href="http://username.github.io/" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2013-10-01T23:51:35-04:00</updated>
- <id>http://username.github.io</id>
+ <link href="http://czarrar.github.io/prospectus/" rel="self"/>
+ <link href="http://czarrar.github.io/prospectus"/>
+ <updated>2013-10-02T11:22:14-04:00</updated>
+ <id>http://czarrar.github.io/prospectus</id>
  <author>
    <name>Name Lastname</name>
    <email>blah@email.test</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://czarrar.github.io/prospectus/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00-05:00</updated>
-   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://czarrar.github.io/prospectus/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
 &lt;h2 id='overview'&gt;Overview&lt;/h2&gt;

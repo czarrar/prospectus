@@ -1,11 +1,11 @@
 
-http://username.github.io/archive.html
-http://username.github.io/atom.xml
-http://username.github.io/categories.html
-http://username.github.io/index.html
-http://username.github.io/pages.html
-http://username.github.io/rss.xml
-http://username.github.io/sitemap.txt
-http://username.github.io/tags.html
+http://czarrar.github.io/prospectus/archive.html
+http://czarrar.github.io/prospectus/atom.xml
+http://czarrar.github.io/prospectus/categories.html
+http://czarrar.github.io/prospectus/index.html
+http://czarrar.github.io/prospectus/pages.html
+http://czarrar.github.io/prospectus/rss.xml
+http://czarrar.github.io/prospectus/sitemap.txt
+http://czarrar.github.io/prospectus/tags.html
 
-http://username.github.io/lessons/2011/12/29/jekyll-introduction
+http://czarrar.github.io/prospectus/lessons/2011/12/29/jekyll-introduction
