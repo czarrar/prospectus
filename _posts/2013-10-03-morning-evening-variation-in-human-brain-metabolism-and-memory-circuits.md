@@ -23,11 +23,11 @@ I wonder if one could also quickly examine the same time of day (morning/evening
 
 This is what would interest me the most if it were true:
 
-_"One exciting, though speculative, possibility is that the evening MTL functional connectivity arises as subjects accumulate experiences and memories throughout the day and recedes as those memories are consolidated during sleep."_
+> "One exciting, though speculative, possibility is that the evening MTL functional connectivity arises as subjects accumulate experiences and memories throughout the day and recedes as those memories are consolidated during sleep."
 
 I already commented on the metabolism earlier but this quote from the paper might be relevant as well.
 
-_"Madsen et al. (1995), they were able to show that aerobic glycolysis persists for close to an hour following the performance of a difficult cognitive task without any evidence of an increase in oxygen consumption or blood flow. This observation, coupled with the metabolic measurements we report herein (i.e., no change in aerobic glycolysis either globally or regionally between morning and evening), suggests that some of the metabolic consequences of synaptic growth and strengthening may be time limited within the period of wake. Obviously, more work needs to be done that emphasizes a more comprehensive view of glucose metabolism. The idea of “local sleep” during wake (Vyazovskiy et al. 2011) should also be considered."_
+> "Madsen et al. (1995), they were able to show that aerobic glycolysis persists for close to an hour following the performance of a difficult cognitive task without any evidence of an increase in oxygen consumption or blood flow. This observation, coupled with the metabolic measurements we report herein (i.e., no change in aerobic glycolysis either globally or regionally between morning and evening), suggests that some of the metabolic consequences of synaptic growth and strengthening may be time limited within the period of wake. Obviously, more work needs to be done that emphasizes a more comprehensive view of glucose metabolism. The idea of “local sleep” during wake (Vyazovskiy et al. 2011) should also be considered."
 
 # Experiments
 

@@ -5,10 +5,130 @@
         <description>Jekyll Bootstrap - Name Lastname</description>
         <link>http://czarrar.github.io/prospectus</link>
         <link>http://czarrar.github.io/prospectus</link>
-        <lastBuildDate>2013-10-02T11:22:14-04:00</lastBuildDate>
-        <pubDate>2013-10-02T11:22:14-04:00</pubDate>
+        <lastBuildDate>2013-10-06T13:33:47-04:00</lastBuildDate>
+        <pubDate>2013-10-06T13:33:47-04:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Morning evening variation in human brain metabolism and memory circuits</title>
+                <description>&lt;p&gt;I was very interested in reading this paper because it took an unstudied phenomena, systematic changes in resting-state connectivity over the course of the day, and put it in the context of a larger theoretical framework related to synaptic homeostasis. The synaptic homeostasis hypothesis suggests that &lt;em&gt;&amp;#8220;a major function of sleep is the regulation of synaptic weights: over the course of a day, learning and experience cause an increase in the brain’s synaptic density, which is pruned each night during sleep (Gilestro et al. 2009; Tononi and Cirelli 2003)&amp;#8221;&lt;/em&gt;. From this theory, the author&amp;#8217;s &lt;em&gt;&amp;#8220;hypothesized that wake would alter the resting-state functional organization of the brain and increase its metabolic cost&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;They found that functional connectivity differences were fairly stable between morning and evening. The most prominent differences were related to regions in the MTL, which were locally connected in the morning and then displayed more connectivity with the prefrontal, parietal, striatal, and brainstem. Surprisingly, there was no associated metabolic changes from PET scans between morning and evening in a separate and smaller set of participants.&lt;/p&gt;
+
+&lt;h1 id='highlights_and_thoughts'&gt;Highlights and Thoughts&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Authors suggest that greater interference effect for scans conducted in the evening versus morning to explain results.&lt;/li&gt;
+
+&lt;li&gt;Greater degree of memory replay may occur during the evening (high degree of overlap between memory retrieval meta-analysis and evening minus morning connectivity)&lt;/li&gt;
+
+&lt;li&gt;Greater degree of replay or retrieval might also lead to greater amounts of interference between multiple memories that needs to be resolved by the evening.&lt;/li&gt;
+
+&lt;li&gt;Interesting that striatal connectivity goes from negative to positive by the evening. Is this possibly a greater reflection of greater memory integration going in the evening?&lt;/li&gt;
+
+&lt;li&gt;Weird that metabolism the same morning vs evening. Authors suggest that metabolism changes due to learning/memory might be time-limited possibly due to local sleep during wake states. It would be interesting if such local sleep periods were more prevalent during rest periods, which might explain improvements in memory performance after an intervening rest vs task period.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I wonder if one could also quickly examine the same time of day (morning/evening) effects with currently available samples of resting-state data. Between-subjects one could compare differences in MTL functional connectivity depending on the time of day (earlier versus later) of the scan.&lt;/p&gt;
+
+&lt;p&gt;This is what would interest me the most if it were true:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;One exciting, though speculative, possibility is that the evening MTL functional connectivity arises as subjects accumulate experiences and memories throughout the day and recedes as those memories are consolidated during sleep.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I already commented on the metabolism earlier but this quote from the paper might be relevant as well.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;#8220;Madsen et al. (1995), they were able to show that aerobic glycolysis persists for close to an hour following the performance of a difficult cognitive task without any evidence of an increase in oxygen consumption or blood flow. This observation, coupled with the metabolic measurements we report herein (i.e., no change in aerobic glycolysis either globally or regionally between morning and evening), suggests that some of the metabolic consequences of synaptic growth and strengthening may be time limited within the period of wake. Obviously, more work needs to be done that emphasizes a more comprehensive view of glucose metabolism. The idea of “local sleep” during wake (Vyazovskiy et al. 2011) should also be considered.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id='experiments'&gt;Experiments&lt;/h1&gt;
+
+&lt;p&gt;There were two experiments.&lt;/p&gt;
+
+&lt;p&gt;First, they conducted a resting-state fMRI study during the morning and evening (within-subject design). Scans were counter-balanced. Some participants completed the morning scan first and evening scan second, and vice-versa.&lt;/p&gt;
+
+&lt;p&gt;Second, they conducted a PET scan on a smaller sample with the same morning and evening design. I am not clear if the same counter-balancing occurred with PET.&lt;/p&gt;
+
+&lt;h1 id='special_analysis'&gt;Special Analysis&lt;/h1&gt;
+
+&lt;p&gt;Special algorithm called IDEA, which given a set of ROIs will find significant univariate associations with an experimental or phenotypic variable and then take the peaks from those results and use those as ROIs, and iterating this process.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8220;The algorithm is initialized by placing a number of regions into the testing set. Here, we used 36 “canonical” regions representing well-defined nodes in prominent brain networks, including the default-mode, dorsal-attention, executive-control, salience, visual, auditory, and motor networks (Raichle 2011).&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8220;The predictive ability of IDEA was tested using a leave-one-out cross-validation scheme. IDEA was run using data from 23 of the 24 subjects. Using the regions identified by IDEA, we generated a predictive model relating functional connectivity measurements to morning/evening status. We input data from the left-out subject into the model and evaluated its accuracy.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id='results'&gt;Results&lt;/h1&gt;
+
+&lt;h2 id='functional_connectivity'&gt;Functional Connectivity&lt;/h2&gt;
+
+&lt;p&gt;Using their original set of 31 ROIs, didn&amp;#8217;t find any large differences between conditions.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8220;Our analysis identified two regions with strongly altered RS-fcMRI in the left and right medial temporal lobe&amp;#8221;&lt;/em&gt; within entorhinal cortex.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8220;In the morning, the regions in left and right MTL were primarily connected locally with correlations in contralateral MTL, the surrounding area, and the temporal poles, as well as negative correlations in the striatum bilaterally (Fig. 4).&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8220;In the evening, the regions of the left and right MTL displayed functional connectivity with neocortical areas, including the retrosplenial cortex, and nearby posterior cingulate and precuneus, bilateral angular and supramarginal gyri, and dorsolateral and dorsomedial prefrontal cortex. The MTL also exhibited in the evening positive correlations with the pontine tegmentum and with bilateral basal ganglia, as well as negative correlations bilaterally with the anterior insula. The negative correlations with the striatum became positive correlations in the evening.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;They note that many correlations that develop in evening are related to memory retrieval and have a retrieval meta-analysis that is highly similar as a comparison.&lt;/p&gt;
+
+&lt;h2 id='pet'&gt;PET&lt;/h2&gt;
+
+&lt;p&gt;They looked at glucose, oxygen, and cerebral blood flow. Across these and other measures, there were no significant differences between morning and evening.&lt;/p&gt;
+
+&lt;h1 id='relevant_references'&gt;Relevant References&lt;/h1&gt;
+
+&lt;p&gt;There was an important citation related to local sleep (see below) that I found and explored it&amp;#8217;s related citations.&lt;/p&gt;
+
+&lt;p&gt;Vyazovskiy VV, Olcese U, Hanlon EC, Nir Y, Cirelli C, Tononi G. Local sleep in awake rats. Nature 472: 443–447, 2011.&lt;/p&gt;
+
+&lt;p&gt;Park B, Kim JI, Lee D, Jeong SO, Lee JD, Park HJ. Are brain networks stable during a 24-hour period? Neuroimage 59: 456–466, 2012.&lt;/p&gt;</description>
+                <link>http://czarrar.github.io/prospectus/sleep/2013/10/03/morning-evening-variation-in-human-brain-metabolism-and-memory-circuits</link>
+                <guid>http://czarrar.github.io/prospectus/sleep/2013/10/03/morning-evening-variation-in-human-brain-metabolism-and-memory-circuits</guid>
+                <pubDate>2013-10-03T00:00:00-04:00</pubDate>
+        </item>
+
+        <item>
+                <title>Readability</title>
+                <description>&lt;p&gt;Today, I worked through finishing a script that would allow me to take a local html journal article, transform it to text via readability, and then send it to my kindle. I started on this script a few days back and had hoped to be done today but there seem to be some final touches left. Here, I&amp;#8217;ll detail the specific steps involved and any trouble that I faced.&lt;/p&gt;
+
+&lt;p&gt;Why am I taking all these steps? First, I really enjoy reading off the kindle and believe it increases my productivity. I find it at least doubles my reading speed and it is easier to use then an iPad or easier to look at then an iPhone especially when traveling (e.g., on the train or subway). Second, I can&amp;#8217;t use many send to kindle options for scientific articles. Most articles require a login or institutional access and options such as readability or instapaper try to scrape these pages from their servers, which won&amp;#8217;t have access. Consequently, I&amp;#8217;m taking a round-a-bout approach here by getting the text from the article via my access, then posting it online, and saving it to the kindle from there with readability (although other options like instapaper or pocket should work just as well).&lt;/p&gt;
+
+&lt;h1 id='saving_journal_article'&gt;Saving Journal Article&lt;/h1&gt;
+
+&lt;p&gt;Assuming I have access to the article (e.g., via Yale vpn access), then I save the article from the browser using a single-click Zotero plugin. This imports the citation, pdf, and snapshot (full html page) of the specified paper. In order to get the full page snapshot, I need to make sure to always be on the full text page and not just the abstract page. I can note the location of the snapshot by right-clicking it in Zotero and finding it in the Finder.&lt;/p&gt;
+
+&lt;h1 id='uploading_html_journal_article_to_web_server'&gt;Uploading HTML Journal Article to Web Server&lt;/h1&gt;
+
+&lt;p&gt;This is a simple &lt;code&gt;scp&lt;/code&gt; command. I am using a web server to temporarily copy the html page of the journal article to the web. I use an ssh key allowing me to skip entering a password every time.&lt;/p&gt;
+
+&lt;h2 id='problems'&gt;Problems&lt;/h2&gt;
+
+&lt;p&gt;The only issue I faced was that one needs &lt;code&gt;sudo&lt;/code&gt; access to copy files to the public web folder. As a workaround, I soft-linked from an external folder to which I would have user access.&lt;/p&gt;
+
+&lt;h1 id='sending_the_html_to_readability'&gt;Sending the HTML to Readability&lt;/h1&gt;
+
+&lt;p&gt;Here I made a simple script (you can view it as a &lt;a href='https://gist.github.com/czarrar/6805001'&gt;github gist&lt;/a&gt;) that makes use of readit to add a bookmark on readability for the desired web page. In this case, the web page is the recently uploaded page. This script returns the article id of the newly bookmarked page.&lt;/p&gt;
+
+&lt;h2 id='problems'&gt;Problems&lt;/h2&gt;
+
+&lt;p&gt;The first problem I faced was how I could login to readability. Two types of tokens are needed when using readit: consumer tokens and user tokens. The consumer tokens are easily accessible off of the readability site. The user tokens, however, appear to require actually logging into the site. I figured out how to do this by using oauth and the x_auth method of giving my username and password along with the consumer tokens. This then gives me access to the consumer tokens. This knowledge came from a github gist that should be cited here when I remember it.&lt;/p&gt;
+
+&lt;p&gt;I also recently encountered a problem where if I add a bookmark and then update the original page, I can&amp;#8217;t seem to then update the bookmark. The content of the bookmark will be of the original page and not the new page. Deleting the bookmark doesn&amp;#8217;t seem to help here either. So TBD.&lt;/p&gt;
+
+&lt;h1 id='sending_readability_bookmark_to_kindle'&gt;Sending Readability Bookmark to Kindle&lt;/h1&gt;
+
+&lt;p&gt;Here I made another simple script that makes use of mechanize and nokogiri to manually access the readability site and send a specific bookmarked article to kindle. This script can also be viewed as a &lt;a href='https://gist.github.com/czarrar/6805097'&gt;github gist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id='problems'&gt;Problems&lt;/h2&gt;
+
+&lt;p&gt;I had tried to send to kindle with the more convenient readit library. However, for some reason I got some error any time I tried to access the kindle api page, which seems to be labeled as legacy mode. I then found another repository that took this more manual approach to interact with readability.&lt;/p&gt;</description>
+                <link>http://czarrar.github.io/prospectus/code/2013/10/02/readability</link>
+                <guid>http://czarrar.github.io/prospectus/code/2013/10/02/readability</guid>
+                <pubDate>2013-10-02T00:00:00-04:00</pubDate>
+        </item>
 
         <item>
                 <title>Jekyll Introduction</title>

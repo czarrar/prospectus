@@ -8,4 +8,6 @@ http://czarrar.github.io/prospectus/rss.xml
 http://czarrar.github.io/prospectus/sitemap.txt
 http://czarrar.github.io/prospectus/tags.html
 
+http://czarrar.github.io/prospectus/sleep/2013/10/03/morning-evening-variation-in-human-brain-metabolism-and-memory-circuits
+http://czarrar.github.io/prospectus/code/2013/10/02/readability
 http://czarrar.github.io/prospectus/lessons/2011/12/29/jekyll-introduction
