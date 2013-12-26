@@ -3,7 +3,8 @@ source "https://rubygems.org"
 group :development do
   gem 'rake', '~> 0.9'
   gem 'jekyll', '~> 0.12'
-  gem 'rdiscount', '~> 2.0.7'
+  #  gem 'rdiscount', '~> 2.0.7'
+  gem 'kramdown', '~> 0.13.8'
   gem 'pygments.rb', '~> 0.3.4'
   gem 'RedCloth', '~> 4.2.9'
   gem 'haml', '~> 3.1.7'
@@ -18,3 +19,4 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.4.2'
+gem 'pry'
