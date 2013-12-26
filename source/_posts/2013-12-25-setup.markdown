@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Setup"
+date: 2013-12-25 19:40:18 -0500
+comments: true
+categories: octopress
+---
+
+I'm switching to octopuses for this research blog. Here I'll chronicle my install setup and over time, I'll add steps for installing any additional extensions or themes.
+
+## Basics
+
+### Install
+
+I first went through the steps listed in http://octopress.org/docs/setup. The one slight difference is that I used a previous rvmrc file in my main blog and I made sure to do this before `gem install bundler`. If I had wanted to create a new rvmrc file then I would run:
+
+``` bash
+rvm --rvmrc --create ruby-1.9.3-p286@gemset
+```
+
+I made sure to leave the directory and re-enter it to allow the dvm settings to kick in. I also switched to using kramdown instead of rdiscount as I was getting an install error and also because later I will need to switch to kramdown anyway (for some plugin).
+
+### Deploy
+
+I then followed the github project pages instructions: http://octopress.org/docs/deploying/github. 
+
+## Themes
+
+There were several themes that peaked my interest. Below is a list.
+
+* https://github.com/roberto/oct2-orange
+* https://github.com/bijumon/oct2
+* https://github.com/amay077/octoflat
+* https://github.com/alexharris/calm-shallow-sea
+* https://github.com/ryandeussing/octopress-minimalist
+* https://github.com/rezajatnika/greyjoy
+
+And now the code to 
+
+``` bash
+git submodule add git://github.com/roberto/oct2-orange.git .themes/oct2-orange
+git submodule add https://github.com/bijumon/oct2.git .themes/oct2
+git submodule add https://github.com/alexgaribay/octoflat .themes/octoflat
+git submodule add git://github.com/alexharris/calm-shallow-sea.git .themes/calm-shallow-sea
+git submodule add git://github.com/ryandeussing/octopress-minimalist.git .themes/minimalist
+git submodule add git://github.com/rezajatnika/greyjoy.git .themes/greyjoy
+```
+
