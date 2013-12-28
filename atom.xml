@@ -1,16 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Prospectus Journal]]></title>
   <link href="http://czarrar.github.io/prospectus/atom.xml" rel="self"/>
   <link href="http://czarrar.github.io/prospectus/"/>
-  <updated>2013-12-25T19:32:45-05:00</updated>
+  <updated>2013-12-28T13:51:40-05:00</updated>
   <id>http://czarrar.github.io/prospectus/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Zarrar Shehzad]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Setup]]></title>
+    <link href="http://czarrar.github.io/prospectus/blog/2013/12/25/setup/"/>
+    <updated>2013-12-25T19:40:18-05:00</updated>
+    <id>http://czarrar.github.io/prospectus/blog/2013/12/25/setup</id>
+    <content type="html"><![CDATA[<p>I’m switching to octopuses for this research blog. Here I’ll chronicle my install setup and over time, I’ll add steps for installing any additional extensions or themes.</p>
+
+<h2 id="basics">Basics</h2>
+
+<h3 id="install">Install</h3>
+
+<p>I first went through the steps listed in http://octopress.org/docs/setup. The one slight difference is that I used a previous rvmrc file in my main blog and I made sure to do this before <code>gem install bundler</code>. If I had wanted to create a new rvmrc file then I would run:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">rvm --rvmrc --create ruby-1.9.3-p286@gemset
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>I made sure to leave the directory and re-enter it to allow the dvm settings to kick in. I also switched to using kramdown instead of rdiscount as I was getting an install error and also because later I will need to switch to kramdown anyway (for some plugin).</p>
+
+<h3 id="deploy">Deploy</h3>
+
+<p>I then followed the github project pages instructions: http://octopress.org/docs/deploying/github. </p>
+
+<h2 id="themes">Themes</h2>
+
+<p>There were several themes that peaked my interest. Below is a list.</p>
+
+<ul>
+  <li>https://github.com/roberto/oct2-orange</li>
+  <li>https://github.com/bijumon/oct2</li>
+  <li>https://github.com/amay077/octoflat</li>
+  <li>https://github.com/alexharris/calm-shallow-sea</li>
+  <li>https://github.com/ryandeussing/octopress-minimalist</li>
+  <li>https://github.com/rezajatnika/greyjoy</li>
+</ul>
+
+<p>And now the code to download.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">git submodule add git://github.com/roberto/oct2-orange.git .themes/oct2-orange
+</span><span class="line">git submodule add https://github.com/bijumon/oct2.git .themes/oct2
+</span><span class="line">git submodule add https://github.com/alexgaribay/octoflat .themes/octoflat
+</span><span class="line">git submodule add git://github.com/alexharris/calm-shallow-sea.git .themes/calm-shallow-sea
+</span><span class="line">git submodule add git://github.com/ryandeussing/octopress-minimalist.git .themes/minimalist
+</span><span class="line">git submodule add git://github.com/rezajatnika/greyjoy.git .themes/greyjoy
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>To install any of the above just do <code>rake install['theme']</code>. Sometimes the different themes can mix and mess up each other so you might want to take note of the prior comment and reset if things get mucky…<code>git reset --hard 423ee9c949c44f8851408f8caa53cf28eb9724bf</code>.</p>
+
+<h3 id="octoflat">Octoflat</h3>
+
+<p>For now I chose octoflat with the greyjoy theme a close second. Install was simple:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">rake install<span class="o">[</span><span class="s1">&#39;octoflat&#39;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>For this theme, whenever I add a new page, I need to update my config file. For instance:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="yaml"><span class="line"><span class="l-Scalar-Plain">navigation</span><span class="p-Indicator">:</span>
+</span><span class="line"><span class="p-Indicator">-</span> <span class="l-Scalar-Plain">text</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Home</span>
+</span><span class="line">  <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/index.html</span>
+</span><span class="line"><span class="p-Indicator">-</span> <span class="l-Scalar-Plain">text</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">New Page Title</span>
+</span><span class="line">  <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/new_page_name.html</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+]]></content>
+  </entry>
   
 </feed>
