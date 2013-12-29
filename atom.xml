@@ -4,7 +4,7 @@
   <title><![CDATA[Prospectus Journal]]></title>
   <link href="http://czarrar.github.io/prospectus/atom.xml" rel="self"/>
   <link href="http://czarrar.github.io/prospectus/"/>
-  <updated>2013-12-28T13:52:49-05:00</updated>
+  <updated>2013-12-29T00:21:25-05:00</updated>
   <id>http://czarrar.github.io/prospectus/</id>
   <author>
     <name><![CDATA[Zarrar Shehzad]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Clopath 2012]]></title>
+    <link href="http://czarrar.github.io/prospectus/blog/2013/12/28/clopath-2012/"/>
+    <updated>2013-12-28T17:11:11-05:00</updated>
+    <id>http://czarrar.github.io/prospectus/blog/2013/12/28/clopath-2012</id>
+    <content type="html"><![CDATA[<p>For reference details see <a href="http://czarrar.github.io/prospectus/bibliography/Clopath_2012jo.html">this page</a> or the brief reference at the end <a href="#Clopath:2012jo">(Clopath, 2012)</a>.</p>
+
+<h2 id="model">Model</h2>
+
+<p>The article discusses a synaptic plasticity model, which has three steps:</p>
+
+<ol>
+  <li><strong>Tagging:</strong> The synapse strength is the sum of two parts, the weight of the early phase and the weight of the late phase. The early weight can be in a neutral state, high state, or low state. If the early weight is in a high state or low state, it is automatically tagged. The state of the early weight switches from neutral to high with a probability given by a Hebbian rule for the induction of plasticity.</li>
+  <li><strong>Trigger:</strong> If the number of tags exceeds a threshold, plasticity-related proteins are synthesized. The threshold depends on the phasic dopamine level, such that if dopamine is high, the threshold is lowered. Can see this effect, if place a rat in inhibitory avoidance training following being in a novel environment. That is novelty can lower this threshold.</li>
+  <li><strong>Consolidation:</strong> The late weight of the synapse is a continuous variable with two stable states. If plasticity-related proteins are available and if the synapse is tagged, the late-weight will go to the upper stable state if eLTP was induced, lower if eLTD was induced.</li>
+</ol>
+
+<h2 id="limitations">Limitations</h2>
+
+<p>They mention in the article “On a higher level, it is not clear how this synaptic consolidation is linked to the consolidation by transferring memories from different brain areas typically happening during rest and sleep”. This is important…it’s unclear to me as well. The article does draw some links between synapse and more psychological concepts (e.g., dopamine levels related to the novelty and the likelihood to consolidate memories).</p>
+
+<h2 id="future-thoughts">Future Thoughts</h2>
+
+<p>I’m wondering if the synaptic tagging model could have analogues to schema representation in the mPFC. It’s been shown that learning of congruent information is processed in the mPFC <a href="#vanKesteren:2012hj">(van Kesteren, Ruiter, Fernández and Henson, 2012)</a> and this area shows up-regulation of memory relevant genes in the rat immediately after learning <a href="#Tse:2011ee">(Tse, Takeuchi, Kakeyama, Kajii, Okuno, Tohyama, Bito and Morris, 2011)</a>. This suggests that information is tagged both here in the mPFC and in the hippocampus for schema representations along with increases in activity. The combination of increased activity (akin to LTP) and genetic up-regulation (akin to synaptic tagging), we might expect long-term memory storage.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="Clopath:2012jo">Clopath, C., 2012. Synaptic consolidation: an approach to long-term learning.. Cognitive neurodynamics 6, 251–257.</span><a class="details" href="http://czarrar.github.io/prospectus/bibliography/Clopath_2012jo.html">Details</a></li>
+<li><span id="vanKesteren:2012hj">van Kesteren, M.T.R., Ruiter, D.J., Fernández, G., Henson, R.N., 2012. How schema and novelty augment memory formation.. Trends in Neurosciences 35, 211–219.</span><a class="details" href="http://czarrar.github.io/prospectus/bibliography/vanKesteren_2012hj.html">Details</a></li>
+<li><span id="Tse:2011ee">Tse, D., Takeuchi, T., Kakeyama, M., Kajii, Y., Okuno, H., Tohyama, C., Bito, H., Morris, R.G.M., 2011. Schema-dependent gene activation and memory encoding in neocortex.. Science (New York, NY) 333, 891–895.</span><a class="details" href="http://czarrar.github.io/prospectus/bibliography/Tse_2011ee.html">Details</a></li></ol>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Setup]]></title>
