@@ -4,7 +4,7 @@
   <title><![CDATA[Prospectus Journal]]></title>
   <link href="http://czarrar.github.io/prospectus/atom.xml" rel="self"/>
   <link href="http://czarrar.github.io/prospectus/"/>
-  <updated>2013-12-29T00:21:25-05:00</updated>
+  <updated>2013-12-30T23:16:14-05:00</updated>
   <id>http://czarrar.github.io/prospectus/</id>
   <author>
     <name><![CDATA[Zarrar Shehzad]]></name>
@@ -12,6 +12,147 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Arshavsky 2006]]></title>
+    <link href="http://czarrar.github.io/prospectus/blog/2013/12/30/arshavsky-2006/"/>
+    <updated>2013-12-30T22:26:55-05:00</updated>
+    <id>http://czarrar.github.io/prospectus/blog/2013/12/30/arshavsky-2006</id>
+    <content type="html"><![CDATA[<p>This article puts forth the hypothesis that long-term consolidation occurs via modification of DNA in individual neurons. I wonder if an alternative to having DNA explain the persistence of a memory trace is the replay of memories that occurs during system consolidation. One can imagine if the neural system loops over the same trace, it potentially can strengthen the connections via synaptic consolidation over time. Furthermore, sleep might help do this same thing, replay or refresh different memories to allow for continual maintenance.</p>
+
+<p>For work on the stability of synaptic connections see Grutzendler et al., 2002; Zuo et al., 2005; De Paola et al., 2006.</p>
+
+<h2 id="flaws-in-model">Flaws In Model</h2>
+
+<p>He begins with a discussion about how the traditional model can’t explain how you can retain your old memories when you have an epileptic seizure since this should change all your memories. Similarly he claims it’s difficult to understand how something that is ever-changing like proteins maintaining the memories of those who can remember almost everything.</p>
+
+<blockquote>
+  <p>Since proteins have a very short lifetime as compared with memory lifetime, additional hypotheses are required to explain how stable synaptic modifications could result from a transient activation of the protein synthesis.</p>
+</blockquote>
+
+<p>He then strangely claims that</p>
+
+<blockquote>
+  <p>…memory reactivation must lead to further modification in synaptic connections and, eventually, to memory erosion, in direct correlation to how frequently it is accessed.</p>
+</blockquote>
+
+<p>and concludes</p>
+
+<blockquote>
+  <p>Since this is not the case, and repetitive retrievals lead to memory strengthening rather than erosion, we must conclude that memory is resistant to the synaptic activity that accompanies memory retrieval.</p>
+</blockquote>
+
+<p>This conclusion is strange because I thought that was the point, repeated retrieval and encoding leads to strengthening of the connection via reactivation and the hebbian rule.</p>
+
+<p>Another bad example, he gives is about the issue of spontaneous neural activity.</p>
+
+<blockquote>
+  <p>According to SPH, we must expect that ongoing spontaneous activity will lead to incessant, uncontrolled modifications in synaptic connections, and eventually, to erosions in older memories.</p>
+</blockquote>
+
+<p>But the glitch in his argument is that spontaneous activity happens amongst the current connections. True there is some noise but really this might strengthen the already existent connections.</p>
+
+<p>Another oddity is that he claims that</p>
+
+<blockquote>
+  <p>…memory retrieval cannot occur through the reactivation of the same neural assemblies that are involved in initial learning, because these two processes have different localizations</p>
+</blockquote>
+
+<p>Yes, but it isn’t cut and dry like this. Instead the weights just shift from hippocampus to neocortex, the hippocampus can still be involved. Also even for a recent memory, the involvement of the hippocampus is accompanied by involved of distal neocortical regions.</p>
+
+<p>But I think the claim is just that:</p>
+
+<blockquote>
+  <p>…primary synaptic consolidation in the MTL and persistent system consolidation in the neocortex may have radically different mechanisms.</p>
+</blockquote>
+
+<p>He does raise some interesting points about how issues with Alzheimer’s isn’t related to LTP stuff. Not sure if he is missing some facts like structural changes that occur with synaptic consolidation.</p>
+
+<h2 id="dna-hypothesis">DNA Hypothesis</h2>
+
+<p>I don’t totally get this hypothesis as he doesn’t explain the mechanism that clearly. It seems like it would have something to do with somatic DNA recombination. And he notes that</p>
+
+<blockquote>
+  <p>blockage of enzymes participating in the process of somatic DNA recombination impairs learning and memory consolidation (Colon-Cesario et al., 2006; McGowan et al., 2004; Pena de Ortiz et al., 2003; Ren and Pena de Ortiz, 2002; Wang et al., 2003).</p>
+</blockquote>
+
+<p>Another hypothesis states that</p>
+
+<blockquote>
+  <p>Epigenetic modifications alter the structure of the chromatin due to chemical changes to the DNA or histones without change the DNA nucleotide sequence…(Chwang et al., 2005; Levenson et al., 2004)</p>
+</blockquote>
+
+<p>I don’t totally get how these processes can’t be altered or undone. For instance, shouldn’t additional consolidation eventually alter these DNA-related modifications?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Making memories last: the synaptic tagging and capture hypothesis]]></title>
+    <link href="http://czarrar.github.io/prospectus/blog/2013/12/29/redondo-2011/"/>
+    <updated>2013-12-29T15:14:34-05:00</updated>
+    <id>http://czarrar.github.io/prospectus/blog/2013/12/29/redondo-2011</id>
+    <content type="html"><![CDATA[<p>This article is specific to cellular levels of consolidation and so a bunch of it isn’t relevant to my work. The theory of synaptic and capture has some interesting associations. First, the idea that the moment after encoding requires critical events for persisting the memory. How exactly this memory persists can involve some different options (e.g., BDNF is sufficient on its own). Second, is a link to factors such as novelty (release dopamine) and context (?) that we know are important on the systems level but here we can understand a cellular basis. For instance, in the case of a prior context or schema, this might more quickly lead to tagging of the new element in that context/schema, which provides a greater likelihood that the new item will be remembered.</p>
+
+<p>One thing I wonder if maintenance of some of these cellular processes is dependent on re-play. That is without the replay, there would be some degradation. Now there isn’t much work here that pertains to this, however we should note that with the fMRI when we measure replay it happens within the time-window for synaptic consolidation. So a few possibilities exist here, the replay at the systems level occurs independently of the cellular or that there is some synergy or one is required for the other…TODO: think through this.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>An initial point in the article that I like is that the memory trace is distributed.</p>
+
+<blockquote>
+  <p>specific memory traces are not stored within individual neurons, still less at a single synaptic within individual neurons, still less at a single synaptic location, but are distributed in an overlapping manner   across multiple neurons and synapses.</p>
+</blockquote>
+
+<p>The article however focuses I think on more local processes specifically the cellular components of consolidation. It discusses the fact that a synapse can have a possibility for LTM but persistence requires additional factors that happen after encoding.</p>
+
+<blockquote>
+  <p>A core concept of the STC hypothesis is that memory encoding creates the potential for LTM but is noncommittal with respect to whether persistent memory will actually occur (FIG. 1).</p>
+</blockquote>
+
+<blockquote>
+  <p>determining the fate of successive memories only at the time of encoding would be extremely complicated.</p>
+</blockquote>
+
+<h2 id="original-stc-hypothesis">Original STC Hypothesis</h2>
+
+<p>LTP has the following steps: </p>
+
+<ol>
+  <li>the expression of synaptic potentiation with the setting of a local synaptic tag;</li>
+  <li>the synthesis and distribution of plasticity-related proteins (PrPs); </li>
+  <li>the capture of these proteins by tagged synapses; </li>
+  <li>the ultimate stabilization of synaptic strength. if the prior activity history of the neuron has upregulated the availability of PrPs in a particular dendritic compartment, these will be captured by local synaptic tags and so ensure the sta- bilization of the synaptic component of a new memory trace soon after it is encoded</li>
+</ol>
+
+<p>Thus, the prior or subsequent context of the animal will be very important as to whether a memory trace is stored.</p>
+
+<h2 id="challenges">Challenges</h2>
+
+<p>The paper then discusses how some of these steps don’t necessarily need to follow one another (e.g., E-LTP can coexist with a state in which a synaptic tag has not been set or has been blocked) and some other issues.</p>
+
+<p>For instance, slow-onset LTP can also lead to memory being encoding/stored. </p>
+
+<blockquote>
+  <p>Slow-onset LTP is also seen following place cell activity replay, in which patterns of two place cells recorded during exploration of an environment are used as inputs for in vitro experiments in spike timing-dependent plasticity.</p>
+</blockquote>
+
+<p>There’s also a dissociation between functional changes in synaptic strength and structural changes but simply a change in the structure alone is insufficient for long-term LTP.</p>
+
+<h2 id="revised-stc-hypothesis">Revised STC Hypothesis</h2>
+
+<blockquote>
+  <p>The induction of E-LTP trigger two separate processes — one associated with increasing the functional strength of the synapse, the other with altering the structure of the synapse. When these occur alone, only a transitory change in synaptic strength is observed. However, when accompanied by the delivery of PRPs, a more lasting increase in synaptic strength occurs.</p>
+</blockquote>
+
+<p>Arrival and capture of PRPs is essential for stabilization. Without them, any change will go backwards.</p>
+
+<p>Remember that tagging occurs for the synapse and not a particular molecule.</p>
+
+<h3 id="limitation">Limitation</h3>
+
+<p>This is still only for in vitro and links missing for in vivo, although it’s assumed that same processes work for in vivo.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Clopath 2012]]></title>
