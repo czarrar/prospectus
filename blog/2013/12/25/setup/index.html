@@ -169,6 +169,29 @@
 </span><span class="line">  <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/new_page_name.html</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
+<h2 id="plugins">Plugins</h2>
+
+<p>Here are the list of installed plugins with relevant links:</p>
+
+<ul>
+  <li><a href="https://github.com/thesp0nge/octopress_highlight_plugin">octopress highlight plugin</a>: Highlights a piece of text.</li>
+  <li><a href="https://github.com/aar0nTw/Ribbonp">Ribbonp</a>: Adds info/warning boxes to the mix.</li>
+</ul>
+
+<h3 id="highlight">Highlight</h3>
+
+<p><span class="fluo">this is a great piece of wisdom </span></p>
+
+<p>I put this in <code>sass/custom/_styles.scss</code> and added a color attribute.</p>
+
+<h3 id="ribbonp">RibbonP</h3>
+
+<p class="info Info" data-title="Info">Woooo Ribbon P</p>
+
+<p>I had to add this to <code>sass/screen.scsss</code>: <code>@import "plugins/*"</code> so that it imported the <code>_ribbonp.scss</code> file. To that file, I also added a text color attribute of black.</p>
+
+<p>I also had to fix a coding error in line 17 of <code>plugins/ribbonp.rb</code>.</p>
+
     </div>
   </div>
 
@@ -240,7 +263,7 @@
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2013 - Zarrar Shehzad -
+  Copyright &copy; 2014 - Zarrar Shehzad -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> - Theme by <a href="http://alexgaribay.com">Alex Garibay</a>
 </p>
 

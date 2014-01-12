@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Prospectus Journal]]></title>
   <link href="http://czarrar.github.io/prospectus/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://czarrar.github.io/prospectus/"/>
-  <updated>2013-12-30T23:16:14-05:00</updated>
+  <updated>2014-01-12T18:43:21-05:00</updated>
   <id>http://czarrar.github.io/prospectus/</id>
   <author>
     <name><![CDATA[Zarrar Shehzad]]></name>
@@ -79,6 +79,29 @@ navigation:
 - text: New Page Title
   url: /new_page_name.html
 </code></p>
+
+<h2 id="plugins">Plugins</h2>
+
+<p>Here are the list of installed plugins with relevant links:</p>
+
+<ul>
+  <li><a href="https://github.com/thesp0nge/octopress_highlight_plugin">octopress highlight plugin</a>: Highlights a piece of text.</li>
+  <li><a href="https://github.com/aar0nTw/Ribbonp">Ribbonp</a>: Adds info/warning boxes to the mix.</li>
+</ul>
+
+<h3 id="highlight">Highlight</h3>
+
+<p><span class="fluo">this is a great piece of wisdom </span></p>
+
+<p>I put this in <code>sass/custom/_styles.scss</code> and added a color attribute.</p>
+
+<h3 id="ribbonp">RibbonP</h3>
+
+<p><p class='info Info' data-title='Info'>Woooo Ribbon P</p></p>
+
+<p>I had to add this to <code>sass/screen.scsss</code>: <code>@import "plugins/*"</code> so that it imported the <code>_ribbonp.scss</code> file. To that file, I also added a text color attribute of black.</p>
+
+<p>I also had to fix a coding error in line 17 of <code>plugins/ribbonp.rb</code>.</p>
 ]]></content>
   </entry>
   
